@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Membership Login</h1>
+    <form class="userform" onsubmit="newPerson(event)">
+        <div class="input_field">
+            <input type="text" id="fname" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="input_field">
+            <input type="text" id="email" placeholder="Email Address">
+        </div>
+        <br>
+        <div class="input_field">
+            <input type="password" id="pword" placeholder="Password">
+        </div>
+        <br>
+        <input type="submit" value="Login" id="btn">
+    </form>
+    <p id="errorMessage">Error Message here</p>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
